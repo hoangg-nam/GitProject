@@ -1,0 +1,89 @@
+```css id="q7m4sa"
+/* Màu nền cho toàn bộ trang web */
+
+body {
+    margin: 0;
+    padding: 40px;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #e3f2fd;
+
+    color: #333;
+
+    text-align: center;
+}
+
+
+/* Tiêu đề */
+
+h1 {
+    color: #1565c0;
+}
+
+
+/* Đoạn văn */
+
+body > p {
+    max-width: 700px;
+    margin: 20px auto;
+
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Khối nội dung quan trọng */
+
+.important-content {
+    width: 700px;
+    max-width: 90%;
+
+    min-height: 300px;
+
+    margin: 40px auto;
+    padding: 40px;
+
+    /* Ảnh nền */
+    background-image: url("images/background.jpg");
+
+    /* Điều chỉnh ảnh nền */
+    background-size: cover;
+    background-position: center;
+
+    /* Căn giữa nội dung */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Định dạng khối */
+    border: 3px solid #1565c0;
+    border-radius: 12px;
+
+    color: white;
+}
+
+
+/* Tiêu đề trong khối */
+
+.important-content h2 {
+    font-size: 30px;
+}
+
+
+/* Các đoạn văn trong khối */
+
+.important-content p {
+    max-width: 600px;
+
+    font-size: 18px;
+    line-height: 1.6;
+
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 10px 20px;
+
+    border-radius: 6px;
+}
+```
