@@ -1,0 +1,104 @@
+```css
+/* Thiết lập chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 800px;
+    max-width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+h2 {
+    color: #444;
+}
+
+h3 {
+    color: #555;
+}
+
+
+/* 2. list-style-type */
+.subjects {
+    list-style-type: square;
+}
+
+
+/* 3. list-style-type: upper-roman */
+.steps {
+    list-style-type: upper-roman;
+}
+
+
+/* 4. list-style-image */
+.tools {
+    list-style-image: url("https://cdn-icons-png.flaticon.com/16/1828/1828817.png");
+}
+
+
+/* 5. list-style-position */
+.outside-list {
+    list-style-position: outside;
+    background-color: #eeeeee;
+    padding: 15px 30px;
+}
+
+.inside-list {
+    list-style-position: inside;
+    background-color: #eeeeee;
+    padding: 15px;
+}
+
+
+/* 6. list-style shorthand */
+.shorthand-list {
+    list-style: circle inside;
+    background-color: #e8f5e9;
+    padding: 15px 30px;
+}
+
+
+/* 7. Màu sắc và khoảng cách */
+.programming-languages {
+    background-color: #e3f2fd;
+    color: #1565c0;
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+.programming-languages li {
+    margin: 10px 0;
+}
+
+
+/* 8. Bài tập tổng hợp */
+.web-roadmap {
+    list-style: decimal inside;
+    background-color: #fff3e0;
+    color: #e65100;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.web-roadmap li {
+    margin: 12px 0;
+    font-weight: bold;
+}
+```
