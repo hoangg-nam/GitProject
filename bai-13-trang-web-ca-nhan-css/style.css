@@ -1,0 +1,183 @@
+```css
+/* =========================
+   Định dạng chung
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+}
+
+
+/* =========================
+   Tiêu đề
+   ========================= */
+
+header {
+    background-color: #4CAF50;
+    background-image: linear-gradient(
+        135deg,
+        #4CAF50,
+        #2E7D32
+    );
+
+    color: white;
+    padding: 40px 20px;
+    border-bottom: 4px solid #1B5E20;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 32px;
+}
+
+header p {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+/* =========================
+   Các section
+   ========================= */
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #ddd;
+}
+
+section h2 {
+    color: #2E7D32;
+    margin-top: 0;
+}
+
+
+/* =========================
+   Ảnh đại diện
+   ========================= */
+
+.avatar {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 4px solid #4CAF50;
+
+    margin-bottom: 15px;
+}
+
+
+/* =========================
+   Giới thiệu
+   ========================= */
+
+.profile p {
+    line-height: 1.6;
+}
+
+
+/* =========================
+   Danh sách sở thích
+   ========================= */
+
+.hobbies ul {
+    list-style-type: square;
+
+    display: inline-block;
+
+    text-align: left;
+
+    background-color: #E8F5E9;
+
+    padding: 20px 40px;
+
+    border: 1px solid #A5D6A7;
+    border-radius: 8px;
+}
+
+.hobbies li {
+    margin: 10px 0;
+}
+
+
+/* =========================
+   Mục tiêu học tập
+   ========================= */
+
+.goals p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+
+/* =========================
+   Bảng liên hệ
+   ========================= */
+
+table {
+    width: 80%;
+    margin: auto;
+
+    border-collapse: collapse;
+
+    background-color: white;
+}
+
+th,
+td {
+    border: 1px solid #333;
+    padding: 12px;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td {
+    text-align: left;
+}
+
+a {
+    color: #1976D2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* =========================
+   Footer
+   ========================= */
+
+footer {
+    margin-top: 30px;
+    padding: 25px;
+
+    background-color: #ddd;
+    color: #444;
+
+    border-top: 2px solid #bbb;
+}
+```
